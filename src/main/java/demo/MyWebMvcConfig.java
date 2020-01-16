@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by sang on 2018/7/21.
  */
-@Configuration
+
 public class MyWebMvcConfig implements WebMvcConfigurer {
     @Override
     public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {

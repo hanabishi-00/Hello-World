@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="@localhost" uuid="04e81e22-263d-4287-a110-c4f48c789269">
+    <data-source source="LOCAL" name="vhr@localhost" uuid="1892bb55-be0d-489d-9f9e-122c56c70946">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/vhr</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="security@localhost" uuid="dbcec091-3da4-497a-a9f6-1f6b716b8daf">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/security</jdbc-url>
     </data-source>
   </component>
 </project>

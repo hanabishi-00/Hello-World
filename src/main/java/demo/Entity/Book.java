@@ -1,4 +1,4 @@
-package demo;
+package demo.Entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -25,8 +25,7 @@ public class Book {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String name) {this.name = name;
     }
 
     public String getAuthor() {
